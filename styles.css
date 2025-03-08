@@ -168,3 +168,78 @@ footer {
         flex-direction: column;
     }
 }
+
+.blog-posts {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.blog-post {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.blog-post h2 {
+    color: #21243D;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.post-meta {
+    margin-bottom: 1rem;
+}
+
+.post-meta .date {
+    margin-right: 1rem;
+}
+
+.post-meta .tags {
+    color: #8695A4;
+}
+
+.blog-post p {
+    color: #21243D;
+    line-height: 1.5;
+}
+
+/* Navegación */
+.navbar {
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between; /* Separa los elementos izquierda y derecha */
+    align-items: center;
+}
+
+.nav-left {
+    /* Estilos para el contenedor del enlace Home */
+}
+
+.nav-right {
+    display: flex;
+    gap: 33px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-link.active {
+    color: #FF6464;
+}
+
+/* Título principal */
+h1 {
+    text-align: center; /* Centra la palabra "Blog" */
+    margin: 40px 0;
+    font-size: 34px;
+    color: #21243D;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
